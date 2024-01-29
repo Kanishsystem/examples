@@ -1,0 +1,62 @@
+.control.has-icons-left .smart-select div div{
+    padding-left: 0.8em
+}
+.control.has-icons-right .smart-select div div{
+    padding-right: 0.8em
+}
+
+/* smart border less input **/
+.smart-border-less-input div input{    
+    border-top-width: 0 !important;
+    border-left-width: 0 !important;
+    border-right-width: 0 !important;
+    border-bottom-width: 3px !important;
+    box-shadow:none !important
+}
+.smart-border-less-input div label,.smart-border-label-focus-input div label{
+    position: absolute;
+    left: 2rem;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+    transition: top 0.2s, font-size 0.2s;
+}
+.smart-border-less-input div input:focus + .label{
+    top: -0.1em;
+    font-size: 0.9rem;
+  
+}
+.smart-border-label-focus-input div input:focus + .label{
+    top: 0;
+    font-size: 0.9rem;
+    background-color: #fff;
+    padding-left:0.2em;
+    padding-right:0.2em;
+}
+.smart-border-less-input .smart-input-has-value .label{
+    top: 0 !important;
+    font-size: 0.9rem;
+}
+
+.smart-border-label-focus-input .smart-input-has-value .label{
+    top: -0.1em !important;
+    font-size: 0.9rem;
+}
+
+.smart-border-label-input div label{
+    position: absolute;
+    left: 1rem;
+    top: -0.1em;
+    transform: translateY(-50%);
+    pointer-events: none;
+    transition: top 0.2s, font-size 0.2s;
+    background-color: #fff;
+    padding-left:0.2em;
+    padding-right:0.2em;
+}
+.smart-border-label-focus-input div label{
+    background-color: #fff;
+    padding-left:0.2em;
+    padding-right:0.2em;
+}
+

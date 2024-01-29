@@ -1,0 +1,18 @@
+.smart-table thead th{
+    position: relative;
+    cursor: pointer;
+    span{
+      position: absolute;
+      right:0;
+      top:5px;     
+      width:20px;     
+    }   
+}
+.smart-table-sort-hide thead th{
+  span{
+    display: none;
+  }
+}
+.smart-table thead th:hover span{
+  display: block;
+}
