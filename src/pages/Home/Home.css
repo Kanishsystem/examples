@@ -1,0 +1,15 @@
+.smart-example-card{
+    cursor: pointer;
+    border:2px solid #ddd;
+    height:120px;
+    text-align: center;
+    
+}
+
+.smart-example-card i{
+    font-size: 4em;
+}
+.Smart-example-hint{
+    font-size: 0.9;
+    color:#585252    
+}
